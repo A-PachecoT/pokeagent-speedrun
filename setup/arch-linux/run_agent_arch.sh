@@ -1,6 +1,9 @@
 #!/bin/bash
 # Wrapper script for running the agent on Arch Linux
 
+# Change to project root directory
+cd "$(dirname "$0")/../.." || exit 1
+
 # Activate conda environment
 source /opt/miniconda3/etc/profile.d/conda.sh
 conda activate pokeagent

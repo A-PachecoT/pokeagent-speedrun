@@ -477,6 +477,10 @@ python agent.py --backend local --model-name "your-model" --device cuda
    - Ensure `python -m server.app` is running
    - Check that port 8000 is available
 
+4. **Library compatibility issues (Arch Linux)**:
+   - See [setup/arch-linux/](./setup/arch-linux/) for Arch-specific scripts
+   - Use wrapper scripts that handle library conflicts
+
 4. **API rate limits**:
    - Use OpenRouter for better rate limits
    - Switch to local models for unlimited usage

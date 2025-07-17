@@ -10,11 +10,19 @@ Use the provided wrapper scripts that preload system libraries:
 
 ### Running the Server
 ```bash
+# From project root
+./setup/arch-linux/run_server_arch.sh
+
+# Or from this directory
 ./run_server_arch.sh
 ```
 
 ### Running the Agent
 ```bash
+# From project root
+./setup/arch-linux/run_agent_arch.sh --backend openrouter --model-name openai/gpt-4o-mini
+
+# Or from this directory
 ./run_agent_arch.sh --backend openrouter --model-name openai/gpt-4o-mini
 ```
 
