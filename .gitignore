@@ -3,7 +3,9 @@
 *.pyc
 *.cpython
 *.pem
-*.gba
+*.zip
+# Personal context files
+context_*.md
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
